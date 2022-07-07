@@ -1,4 +1,4 @@
-package br.com.mt.store.user.app.config;
+package br.com.mt.store.user.api.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

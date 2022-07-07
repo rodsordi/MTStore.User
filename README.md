@@ -48,6 +48,8 @@ java -jar .\Autenticacao.SpringApp\target\Autenticacao.SpringApp.jar
 
 ## 📐 Referencia de Arquitetura
 
+![Arquitetura](https://raw.githubusercontent.com/rodsordi/MTStore.Commons/master/MTStore.drawio.png)
+
 [Arquitetura Hexagonal](https://reflectoring.io/spring-hexagonal/)
 
 ![Arquitetura Hexagonal](https://reflectoring.io/images/posts/spring-hexagonal/hexagonal-architecture_hu6764515d7030d45af6f7f498c79e292b_50897_956x0_resize_box_3.png)

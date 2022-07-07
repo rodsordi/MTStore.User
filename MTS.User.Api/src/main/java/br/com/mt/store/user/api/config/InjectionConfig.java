@@ -1,4 +1,4 @@
-package br.com.mt.store.user.app.config;
+package br.com.mt.store.user.api.config;
 
 import br.com.mt.store.user.domain.usecase.user.creation.UserCreationOutputPort;
 import br.com.mt.store.user.domain.usecase.user.creation.UserCreationUseCase;

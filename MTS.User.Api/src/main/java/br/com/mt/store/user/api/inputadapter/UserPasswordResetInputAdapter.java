@@ -1,7 +1,7 @@
-package br.com.mt.store.user.app.inputadapter;
+package br.com.mt.store.user.api.inputadapter;
 
-import br.com.mt.store.user.app.dto.UserDTO;
-import br.com.mt.store.user.app.mapper.UserDTOMapper;
+import br.com.mt.store.user.api.dto.UserDTO;
+import br.com.mt.store.user.api.mapper.UserDTOMapper;
 import br.com.mt.store.user.domain.User;
 import br.com.mt.store.user.domain.usecase.user.passwordreset.UserPasswordResetInputPort;
 import br.com.mt.store.user.domain.usecase.user.passwordreset.UserPasswordResetUseCase;

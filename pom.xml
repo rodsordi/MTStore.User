@@ -17,7 +17,7 @@
 
     <modules>
         <module>MTS.User.Domain</module>
-        <module>MTS.User.App</module>
+        <module>MTS.User.Api</module>
         <module>MTS.User.Infra</module>
     </modules>
 

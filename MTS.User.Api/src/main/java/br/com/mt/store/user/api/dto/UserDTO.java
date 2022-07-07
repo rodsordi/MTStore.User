@@ -1,4 +1,4 @@
-package br.com.mt.store.user.app.dto;
+package br.com.mt.store.user.api.dto;
 
 import javax.validation.constraints.NotBlank;
 

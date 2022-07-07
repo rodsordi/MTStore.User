@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>MTS.User.App</artifactId>
+    <artifactId>MTS.User.Api</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -63,7 +63,7 @@
     </dependencies>
 
     <build>
-        <finalName>MTS.User.App</finalName>
+        <finalName>MTS.User.Api</finalName>
 
         <sourceDirectory>src/main/java</sourceDirectory>
         <resources>

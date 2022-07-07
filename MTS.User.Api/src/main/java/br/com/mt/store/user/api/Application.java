@@ -1,4 +1,4 @@
-package br.com.mt.store.user.app;
+package br.com.mt.store.user.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

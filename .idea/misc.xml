@@ -5,6 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/MTS.User.Api/pom.xml" />
+        <option value="$PROJECT_DIR$/MTS.User.Domain/pom.xml" />
+        <option value="$PROJECT_DIR$/MTS.User.Infra/pom.xml" />
       </list>
     </option>
   </component>

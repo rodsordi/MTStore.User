@@ -6,7 +6,7 @@
     </appender>
 
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <file>/app/log/mts-notification.log</file>
+        <file>/app/log/mts-user.log</file>
         <encoder>
             <pattern>%date ${POD_IP} %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
         </encoder>

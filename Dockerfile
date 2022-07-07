@@ -2,10 +2,10 @@ FROM openjdk:17-alpine
 
 RUN mkdir -p app
 
-COPY ./MTS.Notification.App/target/MTS.Notification.App.jar /app
+COPY ./MTS.User.App/target/MTS.User.App.jar /app
 
 WORKDIR /app
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "MTS.Notification.App.jar"]
+CMD ["java", "-jar", "MTS.User.App.jar", "-Dspring.profiles.active=$env"]
