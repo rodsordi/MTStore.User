@@ -10,7 +10,6 @@ import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -31,9 +30,6 @@ public class UserController {
     @Autowired
     private UserPasswordResetInputAdapter userPasswordResetInputAdapter;
 
-    @Autowired
-    private KafkaTemplate<String, String> kafkaTemplate;
-
     @PostMapping(
             produces = MediaType.APPLICATION_JSON_VALUE,
             consumes = MediaType.APPLICATION_JSON_VALUE
@@ -41,9 +37,6 @@ public class UserController {
     public ResponseEntity<UserDTO.Response> creation(
             @RequestHeader(name = "Accept-Language", required = false) Locale locale,
             @Valid @RequestBody UserDTO.Request user) {
-        log.info("send msg");
-        kafkaTemplate.send("MTS_USER_CREATION", "opa");
-
         var response = userCreationInputAdapter.execute(user);
         return response
                 .map(res -> ResponseEntity.ok().body(res))
